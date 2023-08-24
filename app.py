@@ -16,7 +16,7 @@ data['Longitude_value'] = data['Longitude_value'].astype(float)
 
 
 # Create a Streamlit app
-st.title("Integer Field Example")
+st.title("Globle Temperature Predict")
 
 
 model = pickle.load(open('globle_temp.pkl', 'rb'))
@@ -57,6 +57,6 @@ result = model.predict(data)[0]
 result_list =result.tolist()
 
 #return jsonify({'Temperature in your area': result_list})
-if st.button("Submit"):
+if st.button("Predict"):
     # Display the selected gender
     st.write("Temperature in your area:", result_list)
