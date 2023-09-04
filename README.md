@@ -1,5 +1,3 @@
-Creating a comprehensive README file for your GitHub repository is crucial for helping others understand your project and how to use it. Here's a template for your README file:
-
 # Global Temperature Prediction Project
 
 This repository contains a project that predicts global temperatures based on latitude, longitude, year, month, day, latitude direction (north or south), and longitude direction (east or west) using a Logistic Regression model. The project includes data exploration, feature engineering, and a web application for temperature prediction.
